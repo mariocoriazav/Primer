@@ -1,0 +1,415 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.nav_brand {
+    color: #e6e6f0;
+}
+
+
+h2 {
+    color:#05164d;
+    text-align: center;
+    margin: 10px;
+}
+
+p {
+color: #020416;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: left;
+
+
+}
+
+a {
+text-decoration:none;
+}
+
+.nav-link {
+
+    color: #1409ad;
+}
+
+
+.nav {
+    background-color: #fbfbfbf9;
+}
+
+.nav-logo {
+    color: #080f95;
+}
+
+.hero {
+    background-image: url(../multimedia/arno-senoner-UhvEJosq-Zo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 30px;
+    object-fit: cover;
+    text-align: center;
+    object-fit: cover;
+}
+
+.botcor {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    width: 33%;
+}
+
+.hero p {
+    color: #f4f4f4;
+    width: 100%;
+}
+
+.headgal {
+    display: flex;
+    flex-direction: column;
+    color: #f2f2f6;
+    text-align: center;
+    background-color: #08085b;
+    font-weight: bold;
+    width: 100%;
+    padding:5%;
+
+}
+
+.bodycor {
+    position: relative;
+}
+
+.pcor{ color: #08085b;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;}
+
+
+
+.gal_sec {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'audi bolsa nintendo'
+    'lentes mueble muneca';
+    padding: 10% 0;
+    gap: 20px;
+    background-color: #eeeeeec5;
+}
+
+.gal_fin {
+    width: 100%;
+    height: auto;
+}
+
+
+.audi {
+    grid-area: audi;
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+   
+}
+.bolsa {
+    grid-area: bolsa;
+    width: 100%;
+    height: 80%;
+   
+}
+.nintendo {
+    grid-area: nintendo;
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+}
+.lentes {
+    grid-area: lentes;
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+}
+.mueble {
+    grid-area: mueble;
+    width: 100%;
+    height: 80%;
+   
+}
+.muneca {
+    grid-area: muneca;
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+   
+}
+.audi2 {
+    grid-area: audi;
+    width: 200px;
+    height: 200px;
+   
+   
+}
+.bolsa2 {
+    grid-area: bolsa;
+    width: 200px;
+    height: 200px;
+   
+}
+.nintendo2 {
+    grid-area: nintendo;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.lentes2 {
+    grid-area: lentes;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.mueble2 {
+    grid-area: mueble;
+    width: 200px;
+    height: 200px;
+   
+}
+.muneca2 {
+    grid-area: muneca;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+   
+}
+.footercor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #e6e6f0;
+    text-align: center;
+    background-color: #08085b;
+   bottom: 0%;
+
+}
+.mapcor {
+    width: 100%;
+    image-rendering: optimizeQuality;
+}
+.nombrecor {
+    font-size: medium;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.apellidocor {
+    font-size: medium;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.emailcor {
+    font-size: medium;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.textocor {
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recor {
+    margin: 20px;
+}
+
+.envcor {
+    margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .audi {
+        grid-area: audi;
+        width: 90%;
+        height: 70%;
+        padding: 10px;
+       
+    }
+    .bolsa {
+        grid-area: bolsa;
+        width:  90%;
+        height: 70%;
+       
+    }
+    .nintendo {
+        grid-area: nintendo;
+        width:  90%;
+        height: 70%;
+        padding: 10px;
+    }
+    .lentes {
+        grid-area: lentes;
+        width:  90%;
+        height: 70%;
+        padding: 10px;
+    }
+    .mueble {
+        grid-area: mueble;
+        width:  90%;
+        height: 70%;
+       
+    }
+    .muneca {
+        grid-area: muneca;
+        width:  90%;
+        height: 70%;
+        padding: 10px;
+       
+    }
+}
+@media screen and (max-width: 600px) {
+  
+    
+    .audi {
+        grid-area: audi;
+        width: 100%;
+        height: 60%;
+        padding: 10px;
+       
+    }
+    .bolsa {
+        grid-area: bolsa;
+        width: 100%;
+        height: 60%;
+    }
+    .nintendo {
+        grid-area: nintendo;
+        width: 100%;
+        height: 60%;
+        padding: 10px;
+    }
+    .lentes {
+        grid-area: lentes;
+        width: 100%;
+        height: 60%;
+        padding: 10px;
+    }
+    .mueble {
+        grid-area: mueble;
+        width: 100%;
+        height: 60%;
+       
+    }
+    .muneca {
+        grid-area: muneca;
+        width: 100%;
+        height: 60%;
+        padding: 10px;
+       
+    }
+}
+@media screen and (max-width: 480px) {
+  
+
+    ;
+    .audi {
+        grid-area: audi;
+        width: 100%;
+        height: 60%;
+        padding: 5px;
+       
+       
+    }
+    .bolsa {
+        grid-area: bolsa;
+        width: 100%;
+        height: 60%;
+    }
+    .nintendo {
+        grid-area: nintendo;
+        width: 100%;
+        height: 60%;
+        padding: 5px;
+    }
+    .lentes {
+        grid-area: lentes;
+        width: 100%;
+        height: 60%;
+        padding: 5px;
+    }
+    .mueble {
+        grid-area: mueble;
+        width: 100%;
+        height: 60%;
+       
+    }
+    .muneca {
+        grid-area: muneca;
+        width: 100%;
+        height: 60%;
+        padding: 5px;
+       
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .botcor {
+        text-align: center;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+    font-size: 16px;
+    }
+
+    
+    .audi {
+        grid-area: audi;
+        width: 100%;
+        height: 60%;
+        padding: 5px;
+       background-color: #080f95;
+       
+    }
+    .bolsa {
+        grid-area: bolsa;
+        width: 100%;
+        height: 60%;
+        padding: 5px;
+        background-color: #080f95;
+    }
+    .nintendo {
+        grid-area: nintendo;
+        width: 100%;
+        height: 60%;
+        padding: 5px;
+        background-color: #080f95;
+    }
+    .lentes {
+        grid-area: lentes;
+        width: 100%;
+        height: 60%;
+        padding: 5px;
+        background-color: #080f95;
+    }
+    .mueble {
+        grid-area: mueble;
+        width: 100%;
+        height: 60%;
+        padding: 5px;
+        background-color: #080f95;
+       
+    }
+    .muneca {
+        grid-area: muneca;
+        width: 100%;
+        height: 60%;
+        padding: 5px;
+        background-color: #080f95;
+       
+    }
+}
